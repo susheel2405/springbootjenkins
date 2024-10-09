@@ -8,6 +8,6 @@ public class DockerController {
     @GetMapping("/dockerDemo")
     public String getHelloWorld() {
         return "Docker Demo with jenkins and docker" +
-                "Hello World Hii";
+                "Hello World";
     }
 }
