@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerController {
     @GetMapping("/dockerDemo")
     public String getHelloWorld() {
-        return "Docker Demo with jenkins and docker CLI 22-10-2024 ";
+        return "Docker Demo with jenkins and docker CLI 22-10-2024 Github Webhook";
     }
 }
