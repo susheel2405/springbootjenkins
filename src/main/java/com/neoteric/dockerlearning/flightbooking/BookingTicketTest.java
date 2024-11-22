@@ -17,6 +17,6 @@ public class BookingTicketTest {
         emiratesOperations.getAllAvailableFlights();
 
         String emiratesResults = emiratesOperations.booking(booking);
-        System.out.println(emiratesResults + "  " + booking1);
+        System.out.println(emiratesResults + "   " + booking1);
     }
 }
