@@ -7,16 +7,16 @@ import java.util.stream.Collectors;
 public class FlatmapTest {
     public static void main(String[] args) {
 
-        Employee susheel = new Employee("Susheel",001,24,50000.0);
-        Employee ravi = new Employee("Ravi",002,25,60000.0);
+        Employee susheel = new Employee("Susheel",1,24,50000.0);
+        Employee ravi = new Employee("Ravi",2,25,60000.0);
 
-        Employee rahul = new Employee("Rahul",003,24,70000.0);
-        Employee ganesh = new Employee("ganesh",004,25,80000.0);
+        Employee rahul = new Employee("Rahul",3,24,70000.0);
+        Employee ganesh = new Employee("ganesh",4,25,80000.0);
 
-        Employee honey = new Employee("Honey",005,24,90000.0);
-        Employee venkat = new Employee("Venkat",006,25,50000.0);
+        Employee honey = new Employee("Honey",5,24,90000.0);
+        Employee venkat = new Employee("Venkat",6,25,50000.0);
 
-        Employee shailaja = new Employee("Shailaja",007,24,60000.0);
+        Employee shailaja = new Employee("Shailaja",7,24,60000.0);
         Employee chandu = new Employee("Chandu",8,25,70000.0);
 
         Employee rakesh = new Employee("Rakesh",9,24,8000.0);
