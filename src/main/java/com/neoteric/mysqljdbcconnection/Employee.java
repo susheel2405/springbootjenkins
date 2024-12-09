@@ -79,4 +79,17 @@ public class Employee {
     public void setSalary(Double salary) {
         this.salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "dept='" + dept + '\'' +
+                ", id=" + id +
+                ", pid=" + pid +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                ", mid=" + mid +
+                ", employeeList=" + employeeList +
+                '}';
+    }
 }

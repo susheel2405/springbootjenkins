@@ -55,4 +55,15 @@ public class Project {
     public void setPname(String pname) {
         this.pname = pname;
     }
+
+    @Override
+    public String toString() {
+        return "Project{" +
+                "employeeList=" + employeeList +
+                ", id=" + id +
+                ", pname='" + pname + '\'' +
+                ", startdate=" + startdate +
+                ", enddate=" + enddate +
+                '}';
+    }
 }
