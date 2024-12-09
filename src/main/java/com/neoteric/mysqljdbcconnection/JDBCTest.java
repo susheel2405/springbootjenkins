@@ -1,7 +1,7 @@
 package com.neoteric.mysqljdbcconnection;
 
-public class DataBaseConnectionTest {
+public class JDBCTest {
     public static void main(String[] args) {
-        DataBaseConnection.projectAllocation();
+        JDBCConnection.getAllocationEmployees();
     }
 }

@@ -1,30 +1,36 @@
 package com.neoteric.mysqljdbcconnection;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Employee {
-
-    private String name;
     private int id;
+
+    private int pid;
+    private String name;
     private String dept;
-    private double salary;
-    private String state;
-    private int mid;
 
+    private  double salary;
 
-    private int getId(){
-        return id;
+    private  int mid;
+    private List<Employee> employeeList;
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
-    public String getDept() {
-        return dept;
+    public List<Employee> getEmployeeList() {
+        return employeeList;
     }
 
-    public void setDept(String dept) {
-        this.dept = dept;
+    public void setEmployeeList(List<Employee> employeeList) {
+        this.employeeList = employeeList;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    // Constructor
+    public Employee() {
+        this.employeeList = new ArrayList<>();
     }
+
 
     public int getMid() {
         return mid;
@@ -32,6 +38,22 @@ public class Employee {
 
     public void setMid(int mid) {
         this.mid = mid;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getPid() {
+        return pid;
+    }
+
+    public void setPid(int pid) {
+        this.pid = pid;
     }
 
     public String getName() {
@@ -42,19 +64,19 @@ public class Employee {
         this.name = name;
     }
 
-    public double getSalary() {
+    public String getDept() {
+        return dept;
+    }
+
+    public void setDept(String dept) {
+        this.dept = dept;
+    }
+
+    public Double getSalary() {
         return salary;
     }
 
-    public void setSalary(double salary) {
+    public void setSalary(Double salary) {
         this.salary = salary;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
     }
 }
